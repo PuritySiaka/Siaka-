@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/signup.css">
+	<title>Sign Up</title>
+</head>
+<body>
+	 <form>
+            <div class="div1">
+            <label>Username</label>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" class="inputText" id="address" placeholder="Enter Username" required /><br><br>
+
+            <label>Email</label>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="email" class="inputText" id="address" placeholder="Enter Email" required /><br><br>
+
+            <label>Area of Residence</label>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" class="inputText" id="address" placeholder="Area of Residence" required/><br><br>
+
+
+            <label>Password</label>
+            <input type="password" class="inputText" id="Pass" placeholder="Enter Password" required/><br><br>
+
+            <fieldset>
+            <legend class="gender">Gender</legend>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female<br>
+            </fieldset>
+            <br>
+            <input type="checkbox" value="show" class="heyy" onclick="Check()"/>Show password!<br><br>
+
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br><input type="button" class="logButton" value="Sign Up" onclick="myFucntion()"/>
+            <label class="account" onclick="Account()">my Account!</label>
+            </div>
+     
+        </form>
+</body>
+<script type="text/javascript">
+
+	function Account(){
+            window.location.href = "login.html";
+        }
+        function Check()
+        {
+            var passtype = document.getElementById("Pass");
+            if(passtype.type === "text")
+            {
+                passtype.type = "password";
+            }else{
+                passtype.type = "text";
+            }
+        }
+</script>
+</html>

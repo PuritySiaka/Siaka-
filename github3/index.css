@@ -1,0 +1,65 @@
+fieldset{
+	border-radius: 10px;
+}
+form{
+	margin-top: 55px;
+	text-align: center;
+	background-color: lightgray;
+	width: 600px;
+	height: 537px;
+	margin-left: 350px;
+	border-radius: 10px;
+}
+button{
+	background-color: blue;
+	border-radius: 5px;
+	border: none;
+	height: 30px;
+	box-shadow: red;
+}
+body{
+	margin-top: 20px;
+	background-color: lightblue;
+	margin-left: 70px;
+
+}
+.txtEmail{
+	border-radius: 10px;
+	height: 25px;
+	width: 220px;
+	border-bottom: darkred;
+}
+label{
+	color: black;
+	font-weight: normal;
+}
+.txtName{
+	border-radius: 10px;
+	height: 25px;
+	width: 220px;
+	margin-left: 10px;
+	margin-right: -190px;
+	border-bottom: darkred;
+	bord
+}
+.time{
+	margin-left: 10px;
+	margin-right: -190px;
+}
+
+.selet{
+	margin-left: 10px;
+	margin-right: 50px;
+}
+.timee{
+	margin-left: -100px;
+	margin-right: 10px;
+}
+.emotion{
+	margin-left: -130px;
+	margin-right: 40px;
+}
+.apply{
+	margin-left: -70px;
+	margin-right: 40px;
+}
